@@ -2,24 +2,39 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Work hard. Be optimisitc. Enjoy the journey.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> </p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false # includes a list of the newest posts
+experiences: true # includes a list of the experiences
+announcements: true
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey folks! I am Gautam Jajoo, a fourth-year undergraduate student at BITS Pilani pursuing Bachelors in Computer Science and Masters in Economics. I like to code and love to work at the intersection of tech, business and innovation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include Federated Learning, Privacy Preserving ML, and Software Engineering. I am also interested in understanding of human behavior in various interactions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My hobbies include quizzing, playing chess, and watching movies(I am a movie buff ;)). Apart from that, I love writing jokes, and sometimes I try to do standup. 
+
+I have actively participated in a diverse array of competitions spanning various domains, including product development, case studies, financial analysis, programming contests, and data analytics and science competitions.
+
+I love to talk and interact with people(not an extrovert, but an ambivert). I am always looking opportunities to collaborate and work on interesting projects. Feel free to reach out to me if you have any questions or just want to say hi!
+
+<p style="color: red;"><i> I am currently seeking funded opportunities to work during Fall 2024 </i></p>
+
+<!-- --- -->
+
+<!-- ## __research interests__
+
+I am interested in  understanding how individuals perceive and interpret ambiguous information
+
+--- -->

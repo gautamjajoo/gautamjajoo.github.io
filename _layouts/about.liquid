@@ -48,8 +48,17 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Experiences  -->
+    {% if page.experiences %}
+      <h2>
+        <a href="{{ '/experiences/' | relative_url }}" style="color: inherit">experiences</a>
+      </h2>
+      <br>
+      {% include experiences.html %}
+    {% endif %}
+
     <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
+    {% if page.latest_posts %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>

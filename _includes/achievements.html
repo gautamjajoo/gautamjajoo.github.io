@@ -1,0 +1,25 @@
+<div class="news">
+    {% if site.achievements %}
+            {% assign experiences = site.experiences | reverse %}
+            {% for item in experiences limit: site.experiences_limit %}
+                <div class="experience" style="margin: 0 0 50px 0;">
+                    <a href="{{ item.link }}"><h4 style="font-weight: 300;">{{ item.company }}</h4></a>
+                    <div class="experience-details">
+                        <p class="position" style="float: left;">{{ item.position }}</p>
+                        <p class="date-range" style="float: right;">({{ item.startDate }} - {{ item.endDate }})</p>
+                        <div style="clear: both;"></div>
+                        <p>Supervised by: <a href="{{ item.link1 }}">{{ item.supervision1 }} </a> 
+                            {% if item.supervision2 %} and <a href="{{ item.link2 }}">{{ item.supervision2 }}</a> {% endif %} </p>
+                    <div class="profile float-right">
+                        <img src="{{ item.logo.image }}" class="img-responsive" style="width:80%; height: 60%; margin: 0 0 0 20%;">
+                    </div>
+                    <div class="clearfix news-title" style="font-size: 15px">
+                        {{ item.description }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+    {% else %}
+        <p>No achievements so far...</p>
+    {% endif %}
+</div>
