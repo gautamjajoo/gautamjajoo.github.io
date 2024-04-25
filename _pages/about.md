@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Hey folks! I am Gautam Jajoo, a fourth-year undergraduate student at BITS Pilani pursuing Bachelors in Computer Science and Masters in Economics. I like to code and love to work at the intersection of tech, business and innovation.
 
-My research interests include Federated Learning, Privacy Preserving ML, and Software Engineering. I am also interested in understanding of human behavior in various interactions.
+My research interests include Federated Learning, Privacy Preserving & Secure ML, and Distributed Learning. I am also interested in understanding of human behavior in various interactions.
 
 My hobbies include quizzing, playing chess, and watching movies(I am a movie buff ;)). Apart from that, I love writing jokes, and sometimes I try to do standup. 
 
