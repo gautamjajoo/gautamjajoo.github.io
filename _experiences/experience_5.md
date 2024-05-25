@@ -13,7 +13,7 @@ logo:
   image: assets/img/bits.png
 company: ADAPT Lab, BITS Pilani
 description: |
-    ◦ Developing an FL-based tiny model to estimate the Remaining Useful Life (RUL) of electric vehicle batteries
-    <br>
-    ◦ Exploring techniques for model compression such as Binarization, Quantization, Pruning, and Knowledge Distillation to reduce memory constraints for deploying on edge devices and enhance the Machine learning(ML) model’s performance
+  ◦ Developing an FL-based tiny model to estimate the Remaining Useful Life (RUL) of electric vehicle batteries
+  <br>
+  ◦ Exploring techniques for model compression such as Binarization, Quantization, Pruning, and Knowledge Distillation to reduce memory constraints for deploying on edge devices and enhance the Machine learning(ML) model’s performance
 ---

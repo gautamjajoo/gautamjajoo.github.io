@@ -13,7 +13,7 @@ logo:
   image: assets/img/ian.png
 company: Indian Angel Network Pvt Ltd
 description: |
-    ◦ Worked in the funding processes for startups by performing due diligence, attending pitches, and other venture screening processes 
-    <br>
-    ◦ Worked on formulating an investment thesis on potential investment niches in the BioTech and Web3 industry
+  ◦ Worked in the funding processes for startups by performing due diligence, attending pitches, and other venture screening processes 
+  <br>
+  ◦ Worked on formulating an investment thesis on potential investment niches in the BioTech and Web3 industry
 ---

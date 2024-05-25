@@ -23,7 +23,7 @@ Hey folks! I am Gautam Jajoo, a fourth-year undergraduate student at BITS Pilani
 
 My research interests include Federated Learning, Privacy Preserving & Secure ML, and Distributed Learning. I am also interested in understanding of human behavior in various interactions.
 
-My hobbies include quizzing, playing chess, and watching movies(I am a movie buff ;)). Apart from that, I love writing jokes, and sometimes I try to do standup. 
+My hobbies include quizzing, playing chess, and watching movies(I am a movie buff ;)). Apart from that, I love writing jokes, and sometimes I try to do standup.
 
 I have actively participated in a diverse array of competitions spanning various domains, including product development, case studies, financial analysis, programming contests, and data analytics and science competitions.
 
