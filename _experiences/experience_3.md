@@ -7,7 +7,7 @@ location: Umiam, Meghalaya
 position: Student Intern
 link: https://nesac.gov.in/
 supervision1: Dr. Avinash Chouhan
-link1: https://www.linkedin.com/in/avinash-chouhan-56198448?originalSubdomain=in
+link1: https://www.linkedin.com/in/avinash-chouhan-56198448/
 logo:
   align: right
   image: assets/img/nesac.png
