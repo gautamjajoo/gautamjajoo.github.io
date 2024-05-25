@@ -1,0 +1,24 @@
+[exclude]
+# Exclude all LinkedIn URLs to prevent rate limit issues
+regex = ["https://www.linkedin.com/.*"]
+
+[checks]
+# Exclude files that contain Liquid template tags
+exclude_paths = [
+  "README.md",
+  "_pages/404.md",
+  "_pages/blog.md",
+  "_posts/2018-12-22-distill.md",
+  "_includes/.*",
+  "_pages/.*",
+  "_posts/.*",
+  "_pages/blog.md"
+]
+
+[verbosity]
+# Set verbosity level
+level = "verbose"
+
+[progress]
+# Disable progress bar for cleaner logs
+disable = true
