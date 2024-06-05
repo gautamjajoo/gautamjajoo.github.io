@@ -6,7 +6,7 @@ subtitle: Work hard. Be optimisitc. Enjoy the journey.
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile.webp
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> </p>
