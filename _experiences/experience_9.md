@@ -17,4 +17,3 @@ description: |
   <br>
   ◦ Benchmarked decentralized learning algorithms and network topologies, ensuring fault tolerance and mitigating rogue client issues.
 ---
-
