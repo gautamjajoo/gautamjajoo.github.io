@@ -181,7 +181,7 @@ collections:
     output: true
     permalink: /experiences/:path/
 
-experiences_limit: 8
+experiences_limit: 10
 
 announcements:
   enabled: true
