@@ -6,7 +6,7 @@ subtitle: Work hard. Be optimisitc. Enjoy the journey.
 
 profile:
   align: right
-  image: badge_photo.jpeg
+  image: badge_photo.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p> </p>
