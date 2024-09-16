@@ -6,8 +6,8 @@ subtitle: Work hard. Be optimisitc. Enjoy the journey.
 
 profile:
   align: right
-  image: profile.jpg
-  image_circular: false # crops the image to make it circular
+  image: badge_photo.jpeg
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p> </p>
 
@@ -19,9 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey folks! I am Gautam Jajoo, a fourth-year undergraduate student at BITS Pilani pursuing Bachelors in Computer Science and Masters in Economics. I like to code and love to work at the intersection of tech, business and innovation.
+Hey folks! I am Gautam Jajoo, a final-year undergraduate student at BITS Pilani pursuing Bachelors in Computer Science and Masters in Economics. I like to code and love to work at the intersection of tech, business and research.
 
-My research interests include Federated Learning, Privacy Preserving & Secure ML, and Distributed Learning. I am also interested in understanding of human behavior in various interactions.
+My research interests include Federated Learning, Privacy Preserving & Secure ML, and Distributed Learning. I am also working on LLMs particularly prompt optimization and reasoning.
 
 My hobbies include quizzing, playing chess, and watching movies(I am a movie buff ;)). Apart from that, I love writing jokes, and sometimes I try to do standup.
 
