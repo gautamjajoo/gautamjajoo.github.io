@@ -6,8 +6,8 @@ subtitle: Work hard. Be optimisitc. Enjoy the journey.
 
 profile:
   align: right
-  image: badge_photo.jpg
-  image_circular: true # crops the image to make it circular
+  image: profile.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p> </p>
 
@@ -29,7 +29,7 @@ I have actively participated in a diverse array of competitions spanning various
 
 I love to talk and interact with people(not an extrovert, but an ambivert). I am always looking opportunities to collaborate and work on interesting projects. Feel free to reach out to me if you have any questions or just want to say hi!
 
-<!-- <p style="color: red;"><i> I am seeking funded opportunities to work during Jan-June 2025 </i></p> -->
+<p style="color: red;"><i> I am seeking funded opportunities to work during Jan-June 2025 </i></p>
 
 <!-- --- -->
 
