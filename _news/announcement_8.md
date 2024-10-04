@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending <a href="https://in.pycon.org/2024/">Pycon India 2024</a> as an invited speaker. <i>Slides and recording available soon </i>
+Attended <a href="https://in.pycon.org/2024/">Pycon India 2024</a> as an invited speaker. <i>Slides and recording available soon </i>
