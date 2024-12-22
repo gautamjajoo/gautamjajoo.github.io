@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-06-03
-inline: true
+date: 2024-08-19
+inline: false
 related_posts: false
 ---
 
-Started working as a Data Science Intern at Atlassian
+Started working as a Research Intern at Microsoft Research, BLR

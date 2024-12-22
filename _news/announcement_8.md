@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-09-21
-inline: true
+date: 2024-10-02
+inline: false
 related_posts: false
 ---
 
-Attended <a href="https://in.pycon.org/2024/">Pycon India 2024</a> as an invited speaker. <i>Slides and recording available soon </i>
+In the Bay Area till 12th October, attending the GSOC Summit, SFTechWeek, and the <a href="https://baylearn-org.github.io/www/">BayLearn Symposium</a>.

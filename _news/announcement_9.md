@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-10-02
-inline: true
+date: 2024-11-02
+inline: false
 related_posts: false
 ---
 
-In the Bay Area till 12th October, attending the GSOC Summit, SFTechWeek, and the <a href="https://baylearn-org.github.io/www/">BayLearn Symposium</a>.
+Paper "Federated Learning with Heterogeneous LLMs: Integrating Small Student Client Models with a Large Hungry Model" has been selected in the 2025 AAAI Undergraduate Consortium. Will be there at AAAI in Philadelphia!
