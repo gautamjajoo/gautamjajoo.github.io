@@ -19,5 +19,6 @@ description: |
   ◦ Benchmarked decentralized learning algorithms and network topologies, ensuring fault tolerance and mitigating rogue client issues.
   <br>
   2. Fluid Interfaces Group:
+  <br>
   ◦ Working on nudging agents on the web
 ---

@@ -12,7 +12,7 @@ supervision2: Nagarajan Natarajan
 link2: https://www.microsoft.com/en-us/research/people/nagarajn/
 logo:
   align: right
-  image: assets/img/microsoft.png
+  image: assets/img/microsoft.jpg
 company: Microsoft Research Lab
 description: |
   ◦ Working on prompt optimization or "textual gradient" on a broader persepctive.
