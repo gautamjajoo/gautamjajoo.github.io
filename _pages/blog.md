@@ -56,26 +56,26 @@ pagination:
   </div>
   {% endif %} -->
 
-  {% if site.external_sources %}
-    <div id="medium-posts">
-      <div class="d-flex justify-content-center">
-        <div class="spinner-border text-primary" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
-    </div>
-    <script src="{{ '/assets/js/medium_feed.js' | relative_url }}"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        {% for src in site.external_sources %}
-          {% if src.name == 'medium.com' %}
-            renderMediumFeed('{{ src.rss_url }}', 'medium-posts');
-          {% endif %}
-        {% endfor %}
-      });
-    </script>
-    <hr>
-  {% endif %}
+{% if site.external_sources %}
+<div id="medium-posts">
+<div class="d-flex justify-content-center">
+<div class="spinner-border text-primary" role="status">
+<span class="visually-hidden">Loading...</span>
+</div>
+</div>
+</div>
+<script src="{{ '/assets/js/medium_feed.js' | relative_url }}"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+{% for src in site.external_sources %}
+{% if src.name == 'medium.com' %}
+renderMediumFeed('{{ src.rss_url }}', 'medium-posts');
+{% endif %}
+{% endfor %}
+});
+</script>
+<hr>
+{% endif %}
 
   <ul class="post-list">
 
