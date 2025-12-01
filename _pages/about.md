@@ -31,9 +31,7 @@ Over the years, I have enjoyed taking part in competitions across product develo
 
 I enjoy talking to people (not a full extrovert, but more of an ambivert). I bring energy and optimism wherever I go, and even on tough days I try to stay upbeat. I also live by the word <i>backhodi</i>: a Hindi term for light-hearted banter and silly jokes.
 
-I generally don't find time to write a blog, but I do try to share my thoughts on [X](https://x.com/gautam_jajoo/highlights).
-
-Feel free to reach out to me if you have any questions or just want to say hi! Here's my [Calendly](https://calendly.com/gautamjajoo1729/help).
+I generally don't find time to write a blog, but I do try to share my thoughts on [X](https://x.com/gautam_jajoo/highlights). Feel free to reach out to me if you have any questions or just want to say hi! Here's my [Calendly](https://calendly.com/gautamjajoo1729/help).
 
 <!-- --- -->
 
