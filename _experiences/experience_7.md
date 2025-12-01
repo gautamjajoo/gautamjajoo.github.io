@@ -12,6 +12,7 @@ logo:
 company: CloudCV
 description: |
   ◦ I am helping to actively maintain CloudCV Project which aims to make AI research more reproducible. <br>
+  ◦ <b>GSOC Organization Administrator 2025</b> - Working on EvalAI on two awesome ideas, "Enhanced Test Suite and Improved User Experience" and "RAG-Based Chat Bot for Enhanced Challenge Support".<br>
   ◦ <b>GSOC Organization Administrator 2024</b> - Leading a team of 5+ mentors and students working on EvalAI on two awesome ideas, "Admin Tools Enhancement and Cost Optimization" and "Enhanced Exception Handling & Leaderboard Porting". <br>
   ◦ <b>GSOC Mentor 2023</b> - Mentored 2 students for Google Summer of Code 2023 who are working on improving the usre interface and infrastructure of EvalAI
 ---

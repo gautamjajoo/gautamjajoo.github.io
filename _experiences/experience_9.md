@@ -1,13 +1,15 @@
 ---
 layout: post
 startDate: Feb 2024
-endDate: Present
+endDate: Jan 2025
 inline: false
 location: Remote
 position: Research Collaborator and Open Source Developer
 link: https://github.com/aidecentralized/sonar/
 supervision1: Abhishek Singh
 link1: https://tremblerz.github.io/
+supervision2: Ramesh Raskar
+link2: https://en.wikipedia.org/wiki/Ramesh_Raskar
 logo:
   align: right
   image: assets/img/mit.png
@@ -20,5 +22,5 @@ description: |
   <br>
   2. Fluid Interfaces Group:
   <br>
-  ◦ Working on nudging agents on the web
+  ◦ Worked on nudging agents on the web [Could not complete it due to time constraints]
 ---

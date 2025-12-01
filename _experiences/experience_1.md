@@ -6,10 +6,10 @@ inline: false
 location: Remote
 position: Student Developer
 link: https://summerofcode.withgoogle.com/
-supervision1: Ram Ramrakhya
-link1: https://ram81.github.io/
-supervision2: Rishabh Jain
-link2: https://rishabhjain.xyz/
+supervision1: Rishabh Jain
+link1: https://rishabhjain.xyz/
+supervision2: Dhruv Batra
+link2: https://dhruvbatra.com/
 logo:
   align: right
   image: assets/img/gsoc.png

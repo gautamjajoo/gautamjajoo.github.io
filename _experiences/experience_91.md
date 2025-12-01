@@ -1,7 +1,7 @@
 ---
 layout: post
 startDate: Aug 2024
-endDate: Present
+endDate: June 2025
 inline: false
 location: Bengaluru, India
 position: Research Intern
