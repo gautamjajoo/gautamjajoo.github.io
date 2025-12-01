@@ -6,6 +6,11 @@ nav: true
 nav_order: 6
 ---
 
+◦ <b>Heidelberg Laureate Forum, March 2025 </b>
+<br>
+Selected to be at Heidelberg Laureate Forum 2025! Met recipients of the Abel Prize, Turing Award, Fields Medal and the 200 brightest minds in math and cs across the world!
+<br>
+
 ◦ <b>Charpak Lab Scholar 2023 | French Institute in India (IFI), Embassy of France, Mar 2023 </b>
 <br>
 Selected as a Charpak Lab Scholar for 2023, an esteemed research program(accepts only 30 students across the country) offering an immersive experience in a leading laboratory in France
