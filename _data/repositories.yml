@@ -2,9 +2,9 @@ github_users:
   - gautamjajoo
 
 github_repos:
-  - gautamjajoo/FAL
+  - microsoft/UniPrompt
   - Cloud-CV/EvalAI
-  - clightning4j/ln-dashboard
-  - gautamjajoo/PharoDoc
-  - gautamjajoo/PrimsAlgorithm-p5
-  - Cloud-CV/GCI
+  - gautamjajoo/FAL
+  - aidecentralized/sonar
+  - gautamjajoo/ln-dashboard
+  - gautamjajoo/evalai-cli
