@@ -3,8 +3,8 @@
     {% assign news_size = site.news | size %}
     <div
       class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 6 %}
-        style="max-height: 500px"
+      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
+        style="max-height: 300px"
       {% endif %}
     >
       <table class="table table-sm table-borderless">

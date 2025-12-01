@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey folks! I am Gautam Jajoo, currently building a startup where we are tackling one of the hardest problems in AI i.e. making time align with context so machines can reason, forecast, and predict the world better. I am quite fascinated by building something that can understand the underlying concepts of world better. I love building things at the intersection of tech, business, and research.
+Hey folks! I am Gautam Jajoo, currently building a startup where we are tackling one of the hard problems in AI i.e. <b>making time align with context so machines can reason, forecast, and predict the world better</b>. I am quite <b>fascinated</b> by building something that can understand the underlying concepts of world better. I love building things at the intersection of tech, finance, and research.
 
 <b>Education:</b> B.E. Computer Science & M.Sc. Economics, BITS Pilani
 
