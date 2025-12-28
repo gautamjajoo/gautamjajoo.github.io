@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
   <p>
-    कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि <br /> Bhagavad Gita, Chapter 2, Verse: 47
+    कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि - Bhagavad Gita, Chapter 2, Verse: 47
   </p>
 
 news: true # includes a list of news items
