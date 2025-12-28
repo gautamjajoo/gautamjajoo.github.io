@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gautamjajoo.github.io/sitemap.xml
+Sitemap: https://jajoo.xyz/sitemap.xml
