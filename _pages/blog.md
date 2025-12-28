@@ -57,6 +57,7 @@ pagination:
   {% endif %} -->
 
 {% if site.external_sources %}
+
 <div id="medium-posts">
 <div class="d-flex justify-content-center">
 <div class="spinner-border text-primary" role="status">
