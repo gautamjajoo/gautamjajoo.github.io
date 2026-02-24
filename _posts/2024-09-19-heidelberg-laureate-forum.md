@@ -7,12 +7,18 @@ tags: [conference, machine-learning, travel]
 categories: blog
 ---
 
+<style>
+  .hlf-img figure { margin: 0; height: 100%; }
+  .hlf-img figure picture { display: block; height: 100%; }
+  .hlf-img figure picture img { width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: 6px; }
+</style>
+
 I have been trying to find the words to document my time at the [**Heidelberg Laureate Forum (HLF)**](https://www.heidelberg-laureate-forum.org/forum/12th-hlf-2025-1/). For a while, the draft just sat there as a collection of fragmented thoughts. But looking back at that week in September (from the 14th to the 19th), I realized it wasn't just a conference, it was one of the most intense experiences of my life.
 
 To make things even more special, the forum fell during my birthday week. Meeting the legends of computer science and mathematics was quite literally the best birthday gift I could have ever given myself.
 
 <div class="row justify-content-center mt-4 mb-4">
-  <div class="col-sm-10">
+  <div class="col-sm-10 hlf-img" style="height: 380px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/discussion.JPG" title="Discussions at HLF" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
@@ -31,11 +37,11 @@ That transition, from reading about someone to having a conversation with them, 
 
 **The RL Masters (Richard Sutton & David Silver)** — Obviously the talk was around RL. I spoke with **David Silver** about synthetic data and training robots in "world models." With **Richard Sutton**, the highlight was playing a game of **chess** against him. It ended in a draw! I am already manifesting a rematch for a decisive win.
 
-<div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-6">
+<div class="row mt-3 mb-4">
+  <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/david_silver.png" title="With David Silver" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/rich_sutton.JPG" title="With Richard Sutton" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
@@ -45,7 +51,7 @@ That transition, from reading about someone to having a conversation with them, 
 **Jeff Dean** — I never imagined I would get candid 1-on-1 time with him. We discussed **World Models**, the naming of **Deepmind**, the trajectory of **Gemini**, and his take on where **Quantum Computing** fits into the future of Google.
 
 <div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-8">
+  <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/jeff_dean.png" title="With Jeff Dean" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
@@ -55,7 +61,7 @@ That transition, from reading about someone to having a conversation with them, 
 **John Hopcroft & Jeffrey Ullman** — These are the people who wrote the books of Theory of Computation and Compilers. Seeing **John Hopcroft** discuss his work on planar graphs and his mission to make research accessible globally was inspiring. He has been working continuously with countries to integrate research at every level.
 
 <div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-8">
+  <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/hopcroft.png" title="With John Hopcroft" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
@@ -67,7 +73,7 @@ With **S. R. Srinivasa Varadhan**, the conversation took a beautiful personal tu
 **Bob Tarjan** — If you have ever prepared for a coding interview, you know Tarjan's algorithm. Sitting in his Master Class felt like a full-circle moment. These legends are still "obsessed." He spoke about the problems that still haunt him — the ones he hasn't solved yet.
 
 <div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-8">
+  <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/bob_tarjan.png" title="With Bob Tarjan" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
@@ -78,11 +84,11 @@ With **S. R. Srinivasa Varadhan**, the conversation took a beautiful personal tu
 
 **Pat Hanrahan** — I also had the chance to hear from him about his days at Pixar, working with Steve Jobs, and then about his creation of Tableau.
 
-<div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-6">
+<div class="row mt-3 mb-4">
+  <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/pat_hanrahan.png" title="With Pat Hanrahan" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/vint_cerf.png" title="With Vint Cerf" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
@@ -93,18 +99,18 @@ One of my favorite moments wasn't a lecture, but a dinner. As we were leaving a 
 
 Looking back, a few lessons became clear.
 
-1. *Obsession drives breakthroughs.* Every laureate I met was still deeply focused on problems they had not yet solved.
-2. *Great researchers stay curious.* There was no sense of completion, only continued exploration.
-3. *Research is deeply human.* Behind everything there is a personal story, a risk taken, or a long struggle.
-4. *Community accelerates growth.* Being surrounded by people who care deeply about ideas changes how you think about your own work.
+1. _Obsession drives breakthroughs._ Every laureate I met was still deeply focused on problems they had not yet solved.
+2. _Great researchers stay curious._ There was no sense of completion, only continued exploration.
+3. _Research is deeply human._ Behind everything there is a personal story, a risk taken, or a long struggle.
+4. _Community accelerates growth._ Being surrounded by people who care deeply about ideas changes how you think about your own work.
 
 Talking with laureates was amazing, but spending time with young researchers was inspiring — conversations during walks along the Neckar River, the Bavarian dinner filled with food, music, and laughter, boat rides, dinner at Heidelberg Castle, and so much more.
 
-<div class="row justify-content-center mt-3 mb-4">
-  <div class="col-sm-6">
+<div class="row mt-3 mb-4">
+  <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/raghu.png" title="At HLF" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
     {% include figure.liquid loading="eager" path="assets/img/HLF/shwetak_patel.png" title="With Shwetak Patel" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
