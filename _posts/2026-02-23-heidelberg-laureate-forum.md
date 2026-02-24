@@ -1,10 +1,11 @@
 ---
 layout: page
 title: "From Setbacks to Superstars: My Journey to the 12th Heidelberg Laureate Forum"
-date: 2024-09-19
+date: 2026-02-23
 description: A week of coffee with textbook legends, chess with RL masters, and the best birthday gift I could give myself.
 tags: [conference, machine-learning, travel]
 categories: blog
+thumbnail: assets/img/HLF/discussion.JPG
 ---
 
 <style>
