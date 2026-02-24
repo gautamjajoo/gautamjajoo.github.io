@@ -49,7 +49,7 @@ That transition, from reading about someone to having a conversation with them, 
 
 ---
 
-**Jeff Dean** — I never imagined I would get candid 1-on-1 time with him. We discussed **World Models**, the naming of **Deepmind**, the trajectory of **Gemini**, and his take on where **Quantum Computing** fits into the future of Google.
+**Jeff Dean** — I never imagined I would get candid 1-on-1 time with him. We discussed **World Models**, the naming and the trajectory of **Gemini**, and his take on where **Quantum Computing** fits into the future of Google.
 
 <div class="row justify-content-center mt-3 mb-4">
   <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
