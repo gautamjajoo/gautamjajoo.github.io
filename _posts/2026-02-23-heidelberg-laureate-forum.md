@@ -5,7 +5,7 @@ date: 2026-02-23
 description: A week of coffee with textbook legends, chess with RL masters, and the best birthday gift I could give myself.
 tags: [conference, machine-learning, travel]
 categories: blog
-thumbnail: assets/img/HLF/discussion.JPG
+thumbnail: assets/img/HLF/discussion.jpg
 ---
 
 <style>
@@ -20,7 +20,7 @@ To make things even more special, the forum fell during my birthday week. Meetin
 
 <div class="row justify-content-center mt-4 mb-4">
   <div class="col-sm-10 hlf-img" style="height: 380px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/discussion.JPG" title="Discussions at HLF" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/discussion.jpg" title="Discussions at HLF" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 
@@ -43,7 +43,7 @@ That transition, from reading about someone to having a conversation with them, 
     {% include figure.liquid loading="eager" path="assets/img/HLF/david_silver.png" title="With David Silver" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/rich_sutton.JPG" title="With Richard Sutton" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/rich_sutton.jpg" title="With Richard Sutton" class="img-fluid rounded z-depth-1" zoomable=true %}
   </div>
 </div>
 
