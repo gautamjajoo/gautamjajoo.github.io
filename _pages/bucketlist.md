@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /bucketlist/
-title: bucket list
+title: dreams
 nav: true
 nav_order: 7
 ---
