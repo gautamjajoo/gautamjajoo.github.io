@@ -80,4 +80,8 @@ Things I want to do. A living list - gets longer with time, hopefully gets short
     <span class="bucket-icon"></span>
     <span><b>Get interviewed by Emily Chang.</b> The original goal was one interview - she left Bloomberg before that could happen, so now there are two items on the list instead of one.</span>
   </li>
+  <li>
+    <span class="bucket-icon"></span>
+    <span><b>Perform live stand-up comedy.</b> Done one set online - now want to do it on a real stage, in front of a real crowd.</span>
+  </li>
 </ul>
