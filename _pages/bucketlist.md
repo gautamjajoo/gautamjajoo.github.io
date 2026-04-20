@@ -84,4 +84,12 @@ Things I want to do. A living list - gets longer with time, hopefully gets short
     <span class="bucket-icon"></span>
     <span><b>Perform live stand-up comedy.</b> Done one set online - now want to do it on a real stage, in front of a real crowd.</span>
   </li>
+  <li>
+    <span class="bucket-icon"></span>
+    <span><b>Learn to DJ and perform at 10 clubs.</b> Bollywood music mixing - the kind that makes a room go from 0 to 100.</span>
+  </li>
+  <li>
+    <span class="bucket-icon"></span>
+    <span><b>Write and direct a movie or TV series.</b> Probably a rom-com or drama - stories about people, feelings, and the mess in between.</span>
+  </li>
 </ul>
