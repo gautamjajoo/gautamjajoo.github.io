@@ -27,12 +27,13 @@ From there, most of the time is spent not writing, but fixing, integrating, and 
 If we think of accuracy (or code correctness) as a function of time, A(t), then the rate of accuracy improvement, dA/dt, tells us how fast correctness improves as time progresses.
 
 Formally:
+
 - **Before AI:** dA/dt ≈ constant, moderately high
 - **With AI:** dA/dt → 0 or oscillates near zero in the last mile
 
 ### The Paradox
 
-AI accelerates the act of creation but not the act of comprehension. Humans are now reasoning *after* the code is written, instead of *as* it's being written — and that's cognitively expensive.
+AI accelerates the act of creation but not the act of comprehension. Humans are now reasoning _after_ the code is written, instead of _as_ it's being written — and that's cognitively expensive.
 
 The brain is optimised for anticipatory reasoning: predicting what you will build. Not retrospective debugging, where you try to infer what the machine just wrote for you.
 

@@ -141,6 +141,7 @@ pagination:
 {% endif %}
 
 {% if site.external_sources %}
+
 <hr>
 <div id="medium-posts">
 <div class="d-flex justify-content-center">

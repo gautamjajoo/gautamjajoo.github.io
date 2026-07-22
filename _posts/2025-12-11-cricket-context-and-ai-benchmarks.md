@@ -18,6 +18,7 @@ It's the same with evals and benchmarks. Everyone tests their models using their
 Showing SOTA is a double-edged sword. For some, it's genuine scientific progress and a validation of their ideas. For others, it becomes a marketing lever — something that generates attention regardless of how meaningful the improvement actually is.
 
 Also, two people can look at the same stats and reach different conclusions:
+
 - a coach sees potential,
 - a critic sees inconsistency.
 

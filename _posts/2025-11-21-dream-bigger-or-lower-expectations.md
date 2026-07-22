@@ -23,7 +23,7 @@ Ambition is the process. Expectation is the outcome.
 
 For the longest time, I believed high ambition automatically meant high expectations. But they are not the same. And the most powerful combination is: **High ambition, low expectations** (see the matrix below).
 
-{% include figure.liquid loading="eager" path="assets/img/dream-bigger-expectations.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/dream-bigger-expectations.jpg" class="img-fluid rounded z-depth-1" responsive=false %}
 
 But the next question that comes to mind: "doesn't ambition require a goal?" Yes, ambition needs a direction, a finish line. But having a goal is not the same as being attached to the outcome. You measure ambition by: the effort you are willing to put in, the sacrifices you are ready to make, etc.
 

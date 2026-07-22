@@ -20,7 +20,7 @@ To make things even more special, the forum fell during my birthday week. Meetin
 
 <div class="row justify-content-center mt-4 mb-4">
   <div class="col-sm-10 hlf-img" style="height: 380px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/discussion.jpg" title="Discussions at HLF" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/discussion.jpg" title="Discussions at HLF" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
@@ -40,10 +40,10 @@ That transition, from reading about someone to having a conversation with them, 
 
 <div class="row mt-3 mb-4">
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/david_silver.png" title="With David Silver" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/david_silver.png" title="With David Silver" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/rich_sutton.jpg" title="With Richard Sutton" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/rich_sutton.jpg" title="With Richard Sutton" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
@@ -53,7 +53,7 @@ That transition, from reading about someone to having a conversation with them, 
 
 <div class="row justify-content-center mt-3 mb-4">
   <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/jeff_dean.png" title="With Jeff Dean" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/jeff_dean.png" title="With Jeff Dean" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
@@ -63,7 +63,7 @@ That transition, from reading about someone to having a conversation with them, 
 
 <div class="row justify-content-center mt-3 mb-4">
   <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/hopcroft.png" title="With John Hopcroft" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/hopcroft.png" title="With John Hopcroft" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
@@ -75,7 +75,7 @@ With **S. R. Srinivasa Varadhan**, the conversation took a beautiful personal tu
 
 <div class="row justify-content-center mt-3 mb-4">
   <div class="col-sm-8 hlf-img" style="height: 380px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/bob_tarjan.png" title="With Bob Tarjan" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/bob_tarjan.png" title="With Bob Tarjan" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
@@ -87,10 +87,10 @@ With **S. R. Srinivasa Varadhan**, the conversation took a beautiful personal tu
 
 <div class="row mt-3 mb-4">
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/pat_hanrahan.png" title="With Pat Hanrahan" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/pat_hanrahan.png" title="With Pat Hanrahan" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/vint_cerf.png" title="With Vint Cerf" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/vint_cerf.png" title="With Vint Cerf" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
@@ -109,10 +109,10 @@ Talking with laureates was amazing, but spending time with young researchers was
 
 <div class="row mt-3 mb-4">
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/raghu.png" title="At HLF" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/raghu.png" title="At HLF" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
   <div class="col-sm-6 hlf-img" style="height: 340px; overflow: hidden;">
-    {% include figure.liquid loading="eager" path="assets/img/HLF/shwetak_patel.png" title="With Shwetak Patel" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/HLF/shwetak_patel.png" title="With Shwetak Patel" class="img-fluid rounded z-depth-1" zoomable=true responsive=false %}
   </div>
 </div>
 
