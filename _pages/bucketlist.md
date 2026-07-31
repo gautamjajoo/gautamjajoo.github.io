@@ -66,7 +66,7 @@ Things I want to do. A living list - gets longer with time, hopefully gets short
   </li>
   <li>
     <span class="bucket-icon"></span>
-    <span><b>Visit 30 countries before turning 30.</b> So far: USA (San Francisco, New York City, Philadelphia, Los Angeles, San Diego, and Nashville), Singapore, Luxembourg, Italy, Germany, Switzerland, and Hong Kong (China).</span>
+    <span><b>Visit 30 countries before turning 30.</b> So far: USA (San Francisco, New York City, Philadelphia, Los Angeles, San Diego, and Nashville), Singapore, Malaysia, Luxembourg, Italy, Germany, Switzerland, and Hong Kong (China).</span>
   </li>
   <li>
     <span class="bucket-icon"></span>
