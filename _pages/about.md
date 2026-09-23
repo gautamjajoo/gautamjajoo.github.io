@@ -21,11 +21,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey folks! I am Gautam Jajoo, currently building a startup where we are tackling one of the hardest problems in AI i.e. <b>making time align with context so machines can reason, forecast, and predict the world better</b>. I am quite <b>fascinated</b> by building systems that truly grasp the underlying concepts of how the world works. I love building things at the intersection of tech, finance, and research.
+Hey folks! I’m Gautam Jajoo, currently building a startup focused on one of AI’s hardest problems: <b>understanding the world well enough to predict what happens next</b>. We’re exploring simulations as one way to get there, with a focus on how humans and AI agents behave and interact. I’m fascinated by building systems that grasp the underlying mechanisms of how the world works. I love building things at the intersection of tech, finance, and research.
 
 <b>Education:</b> B.E. Computer Science & M.Sc. Economics, BITS Pilani (2025)
 
-<b>Research Interests:</b> These days, I am mostly working on Time Series Foundational Models, causal reasoning, and multi-agent systems. My journey has evolved quite a bit: I started with Federated Learning, Privacy-Preserving ML, and Causal Reasoning (heavily influenced by economics). From there, I moved into LLM reasoning, agentic reasoning and retrieval, and now deeper into temporal intelligence.
+<b>Research Interests:</b> These days, I am mostly working on simulations, agent and human behaviour, causal reasoning, and multi-agent systems. My journey has evolved quite a bit: I started with Federated Learning, Privacy-Preserving ML, and Causal Reasoning (heavily influenced by economics). From there, I moved into LLM reasoning, agentic reasoning and retrieval, and now deeper into simulations.
 
 <b>Hobbies:</b> I love traveling, quizzing, playing chess (always up for a match — lichess: <i>gautamjajoo</i>), watching movies (I am a full-on movie buff), and writing jokes (I have even tried stand-up comedy!).
 
