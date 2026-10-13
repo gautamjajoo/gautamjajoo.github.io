@@ -1,6 +1,6 @@
 # Economics of AI page
 
-The page is intended for https://jajoo.xyz/economics-of-ai/. The custom domain is served by Netlify. This repository also builds to GitHub Pages and generates static output on the `gh-pages` branch. Deployment to GitHub Pages alone does not publish the page to the custom domain. The initial Netlify deployment is pending access to the existing hosting account.
+The page is live at https://jajoo.xyz/economics-of-ai/. The domain is registered through Hostinger and the website is hosted by Netlify (project `superb-arithmetic-387838`). Netlify automatically deploys the `master` branch of this repository. The repository also has a separate GitHub Pages build and generates static output on `gh-pages`. The custom-domain deployment and live README loading were verified on October 12, 2026.
 
 The content source is `README.md` on the `main` branch of `gautamjajoo/awesome-economics-of-ai`. Edit and push that README to update the reading list. No change to this website repository is needed for normal reading-list updates.
 
