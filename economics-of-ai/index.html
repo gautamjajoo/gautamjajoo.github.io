@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Awesome Economics of AI | Gautam Jajoo</title>
+    <meta
+      name="description"
+      content="A curated reading list on AI compute, markets, adoption, productivity, labor, growth, and policy. Maintained by Gautam Jajoo."
+    />
+    <link rel="canonical" href="https://jajoo.xyz/economics-of-ai/" />
+    <meta property="og:title" content="Awesome Economics of AI" />
+    <meta property="og:description" content="Research, datasets, and analysis on the economics of AI, curated by Gautam Jajoo." />
+    <meta property="og:url" content="https://jajoo.xyz/economics-of-ai/" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="/assets/css/economics-of-ai.css" />
+    <script type="module" src="/assets/js/economics-of-ai.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#reading-list">Skip to reading list</a>
+    <header class="site-header">
+      <a href="/">Gautam Jajoo</a>
+      <a href="https://github.com/gautamjajoo/awesome-economics-of-ai">View on GitHub <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="reading-list">
+      <p id="sync-status" class="sync-status" role="status"></p>
+      <noscript
+        ><p>
+          This is a saved copy from October 12, 2026.
+          <a href="https://github.com/gautamjajoo/awesome-economics-of-ai">Read the latest version on GitHub.</a>
+        </p></noscript
+      >
+      <article id="readme-content" aria-label="Economics of AI reading list">
+        <h1 id="awesome-economics-of-ai">Awesome Economics of AI</h1>
+        <p>
+          <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+          <a href="https://github.com/gautamjajoo/awesome-economics-of-ai/blob/main/CONTRIBUTING.md"
+            ><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions welcome"
+          /></a>
+        </p>
+        <p>A curated guide to the costs, markets, adoption, and economic effects of AI.</p>
+        <p>
+          Explore how AI is produced, how businesses earn money from it, how organizations use it, and how it changes work and growth. For
+          researchers, builders, investors, and policy readers.
+        </p>
+        <p>
+          This list brings together research, datasets, and analysis scattered across academic, policy, and industry sources. It excludes routine
+          company filings and annual reports.
+        </p>
+        <p>
+          Resources are grouped by the economic question they help answer. Each entry includes a short description and a source label. Contributions
+          are welcome through the <a href="https://github.com/gautamjajoo/awesome-economics-of-ai/blob/main/CONTRIBUTING.md">contribution guide</a>.
+        </p>
+        <h2 id="start-here">Start here</h2>
+        <ul>
+          <li>
+            <a href="https://mse435.stanford.edu/">Economics of the AI Supercycle</a> - Stanford MS&amp;E 435. A practitioner seminar on the economics
+            of the AI stack. Start here for the industry perspective. <code>Course</code>
+          </li>
+          <li>
+            <a href="https://www.nber.org/reporter/2024number1/economics-generative-ai">The Economics of Generative AI</a> - NBER Reporter (2024). An
+            accessible introduction to workplace evidence and the delay between adoption and measured productivity. <code>Overview</code>
+          </li>
+          <li>
+            <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy">AI Index: Economy</a> - Stanford HAI (2026). Charts and source
+            references on investment, adoption, productivity, and labor markets. <code>Report</code>
+          </li>
+        </ul>
+        <p>
+          <strong>Choose a path:</strong> For business economics, start with compute and models. For deployment decisions, start with adoption and
+          productivity. For research and policy, start with labor and growth, then use the courses below.
+        </p>
+        <h2 id="contents">Contents</h2>
+        <ul>
+          <li>
+            <a href="#compute-and-infrastructure">Compute and infrastructure</a>
+            <ul>
+              <li><a href="#chips-and-hardware-economics">Chips and hardware economics</a></li>
+              <li><a href="#cloud-markets-and-capacity-pricing">Cloud markets and capacity pricing</a></li>
+              <li><a href="#data-centers-and-capital-investment">Data centers and capital investment</a></li>
+              <li><a href="#financing-and-investment-risk">Financing and investment risk</a></li>
+              <li><a href="#energy-and-grid-constraints">Energy and grid constraints</a></li>
+              <li><a href="#cooling-water-and-environmental-costs">Cooling, water, and environmental costs</a></li>
+              <li><a href="#training-costs-and-scaling">Training costs and scaling</a></li>
+              <li><a href="#inference-costs-and-serving-efficiency">Inference costs and serving efficiency</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#models-and-applications">Models and applications</a>
+            <ul>
+              <li><a href="#model-pricing-and-price-performance">Model pricing and price-performance</a></li>
+              <li><a href="#margins-and-business-models">Margins and business models</a></li>
+              <li><a href="#competition-and-market-power">Competition and market power</a></li>
+              <li><a href="#open-models-and-barriers-to-entry">Open models and barriers to entry</a></li>
+              <li><a href="#data-markets-and-intellectual-property">Data markets and intellectual property</a></li>
+              <li><a href="#ai-agents-and-transaction-costs">AI agents and transaction costs</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#adoption-and-productivity">Adoption and productivity</a>
+            <ul>
+              <li><a href="#adoption-rates-and-diffusion">Adoption rates and diffusion</a></li>
+              <li><a href="#enterprise-returns-and-measurement">Enterprise returns and measurement</a></li>
+              <li><a href="#deployment-costs-and-reliability">Deployment costs and reliability</a></li>
+              <li><a href="#organizational-change-and-teamwork">Organizational change and teamwork</a></li>
+              <li><a href="#customer-service-and-knowledge-work">Customer service and knowledge work</a></li>
+              <li><a href="#software-development">Software development</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#labor-growth-and-policy">Labor, growth, and policy</a>
+            <ul>
+              <li><a href="#task-exposure-and-automation">Task exposure and automation</a></li>
+              <li><a href="#employment-and-wages">Employment and wages</a></li>
+              <li><a href="#skills-and-new-tasks">Skills and new tasks</a></li>
+              <li><a href="#inequality-and-distribution">Inequality and distribution</a></li>
+              <li><a href="#economic-growth-and-transformative-ai">Economic growth and transformative AI</a></li>
+              <li><a href="#innovation-and-research-productivity">Innovation and research productivity</a></li>
+              <li><a href="#trade-and-economic-development">Trade and economic development</a></li>
+              <li><a href="#taxation-and-social-protection">Taxation and social protection</a></li>
+              <li><a href="#sovereign-ai-and-industrial-policy">Sovereign AI and industrial policy</a></li>
+              <li><a href="#regulation-and-competition-policy">Regulation and competition policy</a></li>
+            </ul>
+          </li>
+          <li><a href="#courses-and-learning-materials">Courses and learning materials</a></li>
+          <li><a href="#related-collections">Related collections</a></li>
+          <li><a href="#contributing">Contributing</a></li>
+        </ul>
+        <h2 id="reading-the-labels">Reading the labels</h2>
+        <p>
+          <code>Study</code> means empirical research. <code>Theory</code> means a model or conceptual framework. <code>Survey</code> means a review
+          of research. <code>Data</code> means a dataset or benchmark. <code>Report</code> means institutional analysis. <code>Industry</code> means
+          practitioner or investor analysis. <code>Course</code>, <code>Book</code>, <code>Overview</code>, and <code>Collection</code> describe the
+          format.
+        </p>
+        <p>
+          Labels describe the source, not a quality ranking or publication status. Dates identify the linked edition or initial working paper; later
+          publication is noted when useful. <code>Living</code> resources change over time. Some publisher versions require payment, even when an
+          abstract or working version is public.
+        </p>
+        <h2 id="compute-and-infrastructure">Compute and infrastructure</h2>
+        <h3 id="chips-and-hardware-economics">Chips and hardware economics</h3>
+        <p><em>What determines the amount of useful computation a dollar can buy?</em></p>
+        <ul>
+          <li>
+            <a href="https://epoch.ai/publications/trends-in-gpu-price-performance">Trends in GPU Price-Performance</a> - Epoch AI (2022). Historical
+            estimates of hardware performance per dollar. Useful for separating chip improvements from changes in model design. <code>Data</code>
+          </li>
+          <li>
+            <a href="https://epoch.ai/data-insights/ai-chip-component-cost-shares">AI Chip Component Cost Shares</a> - Epoch AI (2026). Estimates the
+            costs of memory, logic, packaging, and other chip components, with downloadable data. Component cost estimates differ from accelerator
+            sale prices. <code>Data</code>
+          </li>
+        </ul>
+        <h3 id="cloud-markets-and-capacity-pricing">Cloud markets and capacity pricing</h3>
+        <p><em>How do access, commitments, and switching costs affect compute buyers?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.gov.uk/cma-cases/cloud-services-market-investigation">Cloud Services Market Investigation</a> - UK Competition and
+            Markets Authority (final decision, 2025). Evidence on cloud pricing, profitability, switching barriers, and licensing. Covers cloud
+            infrastructure broadly. <code>Report</code>
+          </li>
+          <li>
+            <a href="https://www.datadoghq.com/state-of-cloud-costs/">State of Cloud Costs</a> - Datadog (May 2023 to April 2024 data). Customer
+            billing evidence on GPU spending, idle capacity, data transfer, and commitment discounts. Covers a sample of AWS customers using Datadog,
+            not the whole cloud market. <code>Report</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data/who-is-buying-and-selling-gpu-compute">Who Is Buying &amp; Selling AI Compute?</a> - Cara Santone, Ramp
+            (September 2026). Maps compute buyers, provider types, and purchasing terms using customer transactions. Covers Ramp customers that buy
+            SaaS; the provider adoption breakdown excludes hyperscalers because bundled GPU spending is hard to isolate. <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="data-centers-and-capital-investment">Data centers and capital investment</h3>
+        <p><em>Where is capacity built, who owns it, and what revenue could support the investment?</em></p>
+        <ul>
+          <li>
+            <a href="https://epoch.ai/data/gpu-clusters">GPU Clusters</a> - Epoch AI. Downloadable records of cluster ownership, hardware, estimated
+            cost, and power. Coverage is incomplete, and planned systems have greater uncertainty. <code>Data</code> <code>Living</code>
+          </li>
+          <li>
+            <a href="https://sequoiacap.com/article/ais-600b-question">AI’s $600B Question</a> - David Cahn, Sequoia Capital (2024). An investor
+            framework connecting infrastructure spending to required downstream revenue. Read its assumptions as a historical scenario, not a current
+            industry balance sheet. <code>Industry</code>
+          </li>
+          <li>
+            <a href="https://www.bridgewater.com/_document/the-macro-implications-of-the-ai-capex-boom?id=0000019b-b947-d0c5-addb-bf4f46590000"
+              >The Macro Implications of the AI Capex Boom</a
+            >
+            - Bridgewater Associates (2026). An investor analysis of capital spending, growth, supply constraints, inflation, and financing. Its
+            projections are scenarios to assess against later evidence. <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="financing-and-investment-risk">Financing and investment risk</h3>
+        <p><em>How are AI investments funded, and who bears the risk if demand falls short?</em></p>
+        <ul>
+          <li>
+            <a href="https://epoch.ai/data-insights/hyperscaler-capex-vs-cash-flow">Hyperscaler Capital Spending versus Operating Cash Flow</a> -
+            Epoch AI (June 2026). Uses company filings to compare capital spending with operating cash flow. Separates historical data from trend
+            extrapolation; the spending series includes non-AI investment. <code>Data</code>
+          </li>
+          <li>
+            <a href="https://www.acadian-asset.com/investment-insights/owenomics/straight-talk-about-circular-deals-in-ai"
+              >Straight Talk About Circular Deals in AI</a
+            >
+            - Owen Lamont, Acadian (2025). A skeptical view of claims that supplier investments and customer agreements alone establish a bubble.
+            Focuses on leverage, equity issuance, and reported fundamentals. <code>Industry</code>
+          </li>
+          <li>
+            <a href="https://www.oecd.org/en/publications/venture-capital-investments-in-artificial-intelligence-through-2025_a13752f5-en.html"
+              >Venture Capital Investments in Artificial Intelligence through 2025</a
+            >
+            - OECD (2026). Tracks AI venture funding using Preqin data, including geographic concentration and large deals. Coverage and missing deal
+            values affect comparisons; venture funding is not total AI capital spending. <code>Report</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data/are-we-in-ai-bubble">Are We in an AI Bubble?</a> - Ara Kharazian, Ramp (October 2025). Uses paid adoption,
+            customer retention, and contract sizes to assess the durability of AI demand. A dated industry argument with forecasts; spending trends
+            alone do not establish investment returns or rule out a bubble. <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="energy-and-grid-constraints">Energy and grid constraints</h3>
+        <p><em>How do electricity supply, location, and emissions affect AI expansion?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.iea.org/reports/energy-and-ai">Energy and AI</a> - International Energy Agency (2025). A global account of
+            data-center electricity demand, supply options, and wider energy effects. Distinguishes scenarios from observed demand.
+            <code>Report</code>
+          </li>
+          <li>
+            <a
+              href="https://eta-publications.lbl.gov/sites/default/files/2025-01/electricity_rate_designs_for_large_loads_evolving_practices_and_opportunities_final.pdf"
+              >Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities</a
+            >
+            - Berkeley Lab, The Brattle Group, and U.S. Department of Energy (January 2025). Explains how electricity contracts allocate
+            infrastructure costs and demand risk between large customers and other ratepayers. Examples reflect their status at publication.
+            <code>Report</code>
+          </li>
+          <li>
+            <a href="https://www.iea.org/reports/key-questions-on-energy-and-ai">Key Questions on Energy and AI</a> - International Energy Agency
+            (2026). Updates the 2025 report with new evidence on data-center demand, electricity supply, grid constraints, and affordability.
+            <code>Report</code>
+          </li>
+          <li>
+            <a href="https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025"
+              >United States Data Center Energy Usage Report: 2025 Update</a
+            >
+            - Smith and coauthors, Berkeley Lab (published June 2026). Builds electricity-demand scenarios from equipment shipments, device energy
+            use, and cooling models. Covers all U.S. data centers; results are model estimates and projections. <code>Report</code>
+          </li>
+          <li>
+            <a href="https://emp.lbl.gov/publications/queued-2025-edition-characteristics">Queued Up: 2025 Edition</a> - Berkeley Lab (2025; data
+            through 2024). Project data and analysis of proposed power plants and storage seeking grid connections. Useful for studying electricity
+            supply delays; these are not data-center connection queues. <code>Data</code>
+          </li>
+        </ul>
+        <h3 id="cooling-water-and-environmental-costs">Cooling, water, and environmental costs</h3>
+        <p><em>How do cooling needs and environmental effects change the costs of AI infrastructure?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.iea.org/reports/energy-and-ai/ai-and-climate-change">AI and Climate Change</a> - International Energy Agency (2025).
+            Examines emissions from AI infrastructure alongside potential emissions reductions from AI applications. <code>Report</code>
+          </li>
+        </ul>
+        <h3 id="training-costs-and-scaling">Training costs and scaling</h3>
+        <p><em>How do model size, data, and compute budgets change training economics?</em></p>
+        <ul>
+          <li>
+            <a href="https://epoch.ai/publications/trends-in-the-dollar-training-cost-of-machine-learning-systems"
+              >Trends in the Dollar Training Cost of Machine Learning Systems</a
+            >
+            - Ben Cottier, Epoch AI (2023). Explains how training-cost estimates are constructed and where their uncertainty comes from. Final-run
+            compute cost is not total development cost. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2203.15556">Training Compute-Optimal Large Language Models</a> - Hoffmann and coauthors (2022). The
+            Chinchilla paper studies how to allocate a fixed training budget between model size and training data. Technical background for cost
+            comparisons. <code>Study</code>
+          </li>
+        </ul>
+        <h3 id="inference-costs-and-serving-efficiency">Inference costs and serving efficiency</h3>
+        <p><em>What changes the cost of producing useful model outputs?</em></p>
+        <ul>
+          <li>
+            <a href="https://arxiv.org/abs/2309.06180">Efficient Memory Management for Large Language Model Serving with PagedAttention</a> - Kwon and
+            coauthors (2023). Explains the serving design behind vLLM and how memory use affects throughput. Connects systems engineering to delivery
+            cost. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://mlcommons.org/benchmarks/inference-datacenter/">MLPerf Inference: Datacenter</a> - MLCommons. Standardized performance
+            results, with power measurements for participating submissions. Compare matched workloads and quality targets; benchmark speed alone is
+            not a dollar-cost measure. <code>Data</code> <code>Living</code>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2606.11690"
+              >Beyond Per-Token Pricing: A Concurrency-Aware Methodology for LLM Infrastructure Cost Estimation</a
+            >
+            - Chitral Patil (2026 preprint). Benchmarks how request traffic and hardware utilization change serving cost, with a linked
+            cost-measurement tool. Results depend on the tested models, hardware, and traffic patterns. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2605.11733">Position: LLM Inference Should Be Evaluated as Energy-to-Token Production</a> - Liu and
+            coauthors (2026 position paper). A framework connecting useful model output to power, cooling, utilization, and quality constraints.
+            Proposes evaluation measures; listed API prices are not measurements of marginal cost. <code>Theory</code>
+          </li>
+        </ul>
+        <h2 id="models-and-applications">Models and applications</h2>
+        <h3 id="model-pricing-and-price-performance">Model pricing and price-performance</h3>
+        <p><em>How much capability does a buyer obtain for a given price?</em></p>
+        <ul>
+          <li>
+            <p>
+              <a href="https://artificialanalysis.ai/models/">Model Comparison</a> - Artificial Analysis. Compares model quality, prices, speed, and
+              latency. A useful starting point for evaluating trade-offs, with methodology and task fit still important. <code>Data</code>
+              <code>Living</code>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://openrouter.ai/docs/api/api-reference/models/list-all-models-and-their-properties">OpenRouter Model Catalog API</a> -
+              OpenRouter. Documents machine-readable model prices, context limits, and supported features. Useful for reproducible price comparisons,
+              with units and provider terms checked before use. <code>Data</code> <code>Living</code>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://ramp.com/data/ai-index-sept-2026">Cracks in the AI Thesis Part 2</a> - Ara Kharazian, Ramp (September 2026). Examines
+              how falling token prices, model choice, and spending per employee affect model-company revenue prospects. A dated analysis of platform
+              data; estimates for the largest spenders are volatile and subject to revision. <code>Industry</code>
+            </p>
+          </li>
+        </ul>
+        <p>
+          For deployment costs, also see <a href="#inference-costs-and-serving-efficiency">inference costs and serving efficiency</a>. A token price
+          does not capture retries, long outputs, human review, or integration costs.
+        </p>
+        <h3 id="margins-and-business-models">Margins and business models</h3>
+        <p><em>Which parts of the AI stack can retain revenue after paying their costs?</em></p>
+        <ul>
+          <li>
+            <a href="https://a16z.com/who-owns-the-generative-ai-platform/">Who Owns the Generative AI Platform?</a> - Bornstein, Appenzeller, and
+            Casado, Andreessen Horowitz (2023). An early investor view of applications, models, infrastructure, and defensible businesses. Useful as a
+            framework rather than a current market map. <code>Industry</code>
+          </li>
+          <li>
+            <a href="https://tailwinds.substack.com/p/the-economics-of-generative-ai-two">The Economics of Generative AI: Two Years Later</a> - Apoorv
+            Agrawal (2026). Estimates revenue and gross-profit distribution across semiconductors, infrastructure, and applications. An investor model
+            with estimated private-company figures, rather than audited industry accounts. <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="competition-and-market-power">Competition and market power</h3>
+        <p><em>What allows AI suppliers to set prices above costs?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w32270">Market Power in Artificial Intelligence</a> - Joshua Gans (2024 working paper; published
+            2026). Reviews competition in training data, input data, and AI predictions. <code>Survey</code>
+          </li>
+          <li>
+            <a href="https://www.nber.org/papers/w34444">Artificial Intelligence, Competition, and Welfare</a> - Susan Athey and Fiona Scott Morton
+            (2025 working paper). Models how upstream AI pricing affects downstream adoption, workers, and welfare. <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://openrouter.ai/rankings">OpenRouter LLM Rankings</a> - OpenRouter. Tracks model usage on its routing platform. Useful for
+            studying demand shifts and model substitution within that platform; token shares are not industry revenue shares. <code>Data</code>
+            <code>Living</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data/businesses-are-changing-ai-model-providers-more-often"
+              >Businesses Are Changing AI Model Providers More Often</a
+            >
+            - Ryan Stevens, Ramp (October 2026). Tracks supplier switching around model releases and price cuts. Useful evidence on customer mobility
+            within Ramp data; it does not directly estimate switching costs or prove that models are commodities. <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="open-models-and-barriers-to-entry">Open models and barriers to entry</h3>
+        <p><em>When does openness help new firms compete?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w32474">Old Moats for New Models</a> - Azoulay, Krieger, and Nagaraj (2024 working paper; published
+            2025). Explains how control over complementary assets, such as infrastructure and distribution, can shape competition even when models are
+            open. <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/open-source-technology-in-the-age-of-ai"
+              >Open Source Technology in the Age of AI</a
+            >
+            - McKinsey, Mozilla Foundation, and Patrick J. McGovern Foundation (2025). Surveys technology leaders and developers on model choice,
+            implementation costs, and time to value. Reports respondent perceptions; included models have different license terms. <code>Report</code>
+          </li>
+        </ul>
+        <p>
+          When comparing resources, distinguish open weights from rights to use, modify, and redistribute a model. These are separate economic
+          choices.
+        </p>
+        <h3 id="data-markets-and-intellectual-property">Data markets and intellectual property</h3>
+        <p><em>Who supplies training data, who gets paid, and how do rights affect entry?</em></p>
+        <h3 id="ai-agents-and-transaction-costs">AI agents and transaction costs</h3>
+        <p><em>What happens when software searches, negotiates, and buys for people?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w34468">The Coasean Singularity? Demand, Supply, and Market Design with AI Agents</a> - Shahidi and
+            coauthors (2025 working paper). Examines how agents could reduce search and contracting costs while creating new market frictions.
+            <code>Theory</code>
+          </li>
+        </ul>
+        <h2 id="adoption-and-productivity">Adoption and productivity</h2>
+        <h3 id="adoption-rates-and-diffusion">Adoption rates and diffusion</h3>
+        <p><em>Who uses AI, how often, and for which tasks?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w32966">The Rapid Adoption of Generative AI</a> - Bick, Blandin, and Deming (2024 working paper;
+            revised 2025). Representative U.S. surveys of use at work and at home. Separates having used AI from the intensity of use.
+            <code>Study</code>
+          </li>
+          <li>
+            <a href="https://www.census.gov/hfp/btos/data_downloads">Business Trends and Outlook Survey: Downloads and Documentation</a> - U.S. Census
+            Bureau. Business adoption data and AI supplements by sector, firm size, and location. Check questionnaires before comparing periods
+            because the AI-use wording changed. <code>Data</code> <code>Living</code>
+          </li>
+          <li>
+            <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises"
+              >Use of Artificial Intelligence in Enterprises</a
+            >
+            - Eurostat. Official EU adoption statistics by country, business size, technology, and use case, with links to source tables. Covers
+            selected sectors and enterprises with at least 10 people employed. <code>Data</code> <code>Living</code>
+          </li>
+          <li>
+            <a href="https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/"
+              >2025: The State of Generative AI in the Enterprise</a
+            >
+            - Menlo Ventures (2025). Survey and market estimates of enterprise spending, model choices, and applications. Respondents already use AI;
+            spending definitions exclude chips and inference serving. <code>Industry</code>
+          </li>
+          <li>
+            <a href="https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html"
+              >The Adoption of Artificial Intelligence in Firms: New Evidence for Policymaking</a
+            >
+            - OECD, BCG, and INSEAD (2025). Surveys AI-adopting firms in the G7 and Brazil on barriers, skills, and policy support. The core survey
+            predates widespread generative AI use and does not measure population adoption rates. <code>Report</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data/ai-index">Ramp AI Index</a> - Ramp Economics Lab. Monthly paid AI adoption by business size, sector, and
+            vendor, based on corporate card and bill payments. The sample skews toward growing, technology-oriented firms and misses free or
+            personally funded use. See <a href="https://ramp.com/data/how-ramp-data-works">How Ramp Data Works</a> for coverage and sample limits.
+            <code>Data</code> <code>Living</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data/am-i-just-a-teck-stack-to-you-how-senior-employees-carry-software-between-firms"
+              >How Senior Employees Carry Software Between Firms</a
+            >
+            - Ryan Stevens, Ramp (August 2026). Links spending and Revelio Labs employment data to study AI adoption following technical hires.
+            Associations depend on observing both employers and can reflect workers moving within the same industry. <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="enterprise-returns-and-measurement">Enterprise returns and measurement</h3>
+        <p><em>When do task gains translate into firm output and financial returns?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w34836">Firm Data on AI</a> - Yotzov and coauthors (2026 working paper). Executive surveys across
+            four countries distinguish reported past effects from expectations about future productivity, output, and employment. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://www.nber.org/papers/w25148">The Productivity J-Curve</a> - Brynjolfsson, Rock, and Syverson (2018 working paper;
+            published 2021). Explains how investment in processes and skills can delay measured gains from a general-purpose technology.
+            <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://mackinstitute.wharton.upenn.edu/wp-content/uploads/2025/04/McElheran-et-al.-Industrial_AI_April-20-2025.pdf"
+              >The Rise of Industrial AI in America: Microfoundations of the Productivity J-curve(s)</a
+            >
+            - McElheran and coauthors (April 2025 working paper). Studies manufacturing adoption, adjustment costs, and productivity using U.S.
+            Census-linked data. Covers industrial AI before the current generative AI wave. <code>Study</code>
+          </li>
+        </ul>
+        <p>
+          Reported time savings are one input to a return calculation. Implementation, review, training, and operating costs also matter. Survey
+          expectations and causal estimates answer different questions.
+        </p>
+        <h3 id="deployment-costs-and-reliability">Deployment costs and reliability</h3>
+        <p><em>What does it cost to turn a model into a dependable production system?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.datadoghq.com/state-of-ai-engineering/">State of AI Engineering</a> - Datadog (2026 edition). Customer usage data on
+            model portfolios, context size, caching, and failures. Shows operational drivers of cost and reliability, with a sample drawn from Datadog
+            customers. <code>Report</code>
+          </li>
+          <li>
+            <a href="https://www.langchain.com/state-of-agent-engineering">State of Agent Engineering</a> - LangChain (November to December 2025
+            survey). Practitioner responses on deployment, evaluation, latency, quality, and cost barriers. The voluntary sample is concentrated in
+            technology firms. <code>Report</code>
+          </li>
+        </ul>
+        <h3 id="organizational-change-and-teamwork">Organizational change and teamwork</h3>
+        <p><em>How does AI change the way expertise and work are organized?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w33641">The Cybernetic Teammate</a> - Dell’Acqua and coauthors (2025 working paper; published 2026).
+            A randomized field experiment at Procter &amp; Gamble comparing individuals and teams with and without AI. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://www.bis.org/publications/bulletin-100-artificial-intelligence-and-human-capital-challenges-central-banks"
+              >Artificial Intelligence and Human Capital: Challenges for Central Banks</a
+            >
+            - Bell and coauthors, BIS (2025). Uses central banking to examine staff skills, workflow redesign, oversight, and possible differences
+            between assistants and agents. Combines current practice with future scenarios. <code>Report</code>
+          </li>
+        </ul>
+        <h3 id="customer-service-and-knowledge-work">Customer service and knowledge work</h3>
+        <p><em>Where have deployments produced measured gains, and where do results vary?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w31161">Generative AI at Work</a> - Brynjolfsson, Li, and Raymond (2023 working paper). Studies an AI
+            assistant in customer support and differences in productivity effects across workers. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/">Navigating the Jagged Technological Frontier</a> -
+            Dell’Acqua and coauthors (2023). Harvard’s research summary links to a field experiment on consultants, task performance, and the limits
+            of AI assistance. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/37440646/"
+              >Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence</a
+            >
+            - Noy and Zhang (2023, Science). A preregistered experiment on professional writing tasks measures completion time and output quality. An
+            online task experiment, with limits to generalizing to full jobs or firm returns. <code>Study</code>
+          </li>
+        </ul>
+        <h3 id="software-development">Software development</h3>
+        <p><em>How do AI tools affect completion time on real software tasks?</em></p>
+        <ul>
+          <li>
+            <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+              >Early-2025 AI and Experienced Open-Source Developer Productivity</a
+            >
+            - Becker and coauthors, METR (2025). A randomized study of experienced developers working in familiar repositories. Reports a slowdown in
+            that setting and explains limits to generalization. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://metr.org/blog/2026-02-24-uplift-update/">Changing the Developer Productivity Experiment Design</a> - METR (2026).
+            Explains why participation and task-selection changes limit conclusions from its follow-up experiment. Read alongside the 2025 study.
+            <code>Study</code>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2410.12944">How Much Does AI Impact Development Speed? An Enterprise-Based Randomized Controlled Trial</a>
+            - Paradis and coauthors (2024 preprint). An experiment with Google engineers finds faster completion of a complex task using internal AI
+            tools. The authors caution that results may differ across tools, tasks, and settings. <code>Study</code>
+          </li>
+        </ul>
+        <h2 id="labor-growth-and-policy">Labor, growth, and policy</h2>
+        <h3 id="task-exposure-and-automation">Task exposure and automation</h3>
+        <p><em>Which tasks could AI affect, and how is exposure measured?</em></p>
+        <ul>
+          <li>
+            <a href="https://arxiv.org/abs/2303.10130">GPTs Are GPTs</a> - Eloundou, Manning, Mishkin, and Rock (2023). Estimates occupational
+            exposure to language models using task descriptions. Exposure is not a forecast of job losses. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure"
+              >Generative AI and Jobs: A Refined Global Index of Occupational Exposure</a
+            >
+            - International Labour Organization and NASK (2025). A global framework for comparing task exposure across occupations and countries.
+            <code>Study</code>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2507.07935">Working with AI: Measuring the Applicability of Generative AI to Occupations</a> - Tomlinson
+            and coauthors (2025 preprint; revised December 2025). Maps Bing Copilot conversations to work activities and occupations. Measures
+            applicability in observed use, rather than job displacement or economy-wide adoption. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2507.22748">Nine Raters, One Index: Carrying LLM Disagreement into Labour-Market Estimates</a> - Henseke
+            and coauthors (2025 preprint; revised August 2026). Shows how the choice of language model used to rate tasks changes exposure measures
+            and downstream estimates. Useful for judging uncertainty in occupation rankings. <code>Study</code>
+          </li>
+        </ul>
+        <h3 id="employment-and-wages">Employment and wages</h3>
+        <p><em>What changes in earnings, hours, and work are visible in observed data?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w33777">Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI</a> -
+            Humlum and Vestergaard (2025 working paper, subsequently revised). Links Danish adoption surveys to administrative labor records.
+            Previously titled <em>Large Language Models, Small Labor Market Effects</em>. <code>Study</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data/heavy-ai-adopters-hire-more">Companies Hire More after AI Adoption</a> - Ara Kharazian, Ramp (June 2026).
+            An accessible summary of a working paper linking AI spending to Revelio Labs workforce data, with a link to the study. Separates adoption
+            intensity and entry-level hiring; adopters differ from other firms before adoption, so the headline is not a general causal conclusion.
+            <code>Industry</code>
+          </li>
+        </ul>
+        <h3 id="skills-and-new-tasks">Skills and new tasks</h3>
+        <p><em>How do new tasks offset displacement, and which skills become more valuable?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w25684">Automation and New Tasks</a> - Acemoglu and Restrepo (2019). A framework for displacement,
+            new task creation, and labor demand, supported by historical evidence. <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://www.nber.org/papers/w26681">Unpacking Skill Bias: Automation and New Tasks</a> - Acemoglu and Restrepo (2020). Connects
+            changes in task allocation to skill demand and wage inequality. <code>Theory</code>
+          </li>
+        </ul>
+        <h3 id="inequality-and-distribution">Inequality and distribution</h3>
+        <p><em>Who receives the gains from AI, and who may lose income?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w24174">Artificial Intelligence and Its Implications for Income Distribution and Unemployment</a> -
+            Korinek and Stiglitz (2017 working paper; chapter published 2019). Models innovation gains, changes in returns to labor and capital, and
+            possible compensation for those who lose. <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://www.iza.org/publications/dp/16972/artificial-intelligence-and-the-skill-premium"
+              >Artificial Intelligence and the Skill Premium</a
+            >
+            - Bloom, Prettner, Saadaoui, and Veruete (2024 discussion paper). Models how AI and robots affect wage differences between skill groups.
+            Results depend on how readily technology substitutes for different workers. <code>Theory</code>
+          </li>
+        </ul>
+        <h3 id="economic-growth-and-transformative-ai">Economic growth and transformative AI</h3>
+        <p><em>Under which assumptions does AI produce modest gains or much faster growth?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w32487">The Simple Macroeconomics of AI</a> - Daron Acemoglu (2024 working paper; published 2025).
+            Connects affected tasks and cost savings to aggregate productivity. Useful for examining the assumptions behind modest growth estimates.
+            <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://www.nber.org/papers/w23928">Artificial Intelligence and Economic Growth</a> - Aghion, Jones, and Jones (2017 working
+            paper; chapter published 2019). Studies automation, research, bottlenecks, and possible growth paths. <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://www.nber.org/books-and-chapters/economics-transformative-ai">The Economics of Transformative AI</a> - Agrawal,
+            Brynjolfsson, and Korinek, editors (2026). A research volume spanning agents, measurement, competition, innovation, and broader economic
+            change. <code>Book</code>
+          </li>
+          <li>
+            <a href="https://forecastingresearch.org/research/economic-effects-of-ai">Forecasting the Economic Effects of AI</a> - Karger, Kuusela,
+            and coauthors (2026 working paper). Compares economic forecasts from economists, AI experts, forecasters, and the public under alternative
+            capability scenarios. Measures beliefs and disagreement, not realized effects. <code>Study</code>
+          </li>
+          <li>
+            <a
+              href="https://www.oecd.org/en/publications/macroeconomic-productivity-gains-from-artificial-intelligence-in-g7-economies_a5319ab5-en.html"
+              >Macroeconomic Productivity Gains from Artificial Intelligence in G7 Economies</a
+            >
+            - Filippucci and coauthors, OECD (2025). Connects task-level gains, sector composition, and adoption assumptions to growth scenarios
+            across G7 economies. Useful for comparing why projected gains differ by country. <code>Report</code>
+          </li>
+        </ul>
+        <h3 id="innovation-and-research-productivity">Innovation and research productivity</h3>
+        <p><em>Can AI accelerate discovery, and what still limits research?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w34312">Artificial Intelligence in Research and Development</a> - Benjamin Jones (2025 working
+            paper). Models how task coverage, AI productivity, and bottlenecks determine returns to research investment. <code>Theory</code>
+          </li>
+        </ul>
+        <h3 id="trade-and-economic-development">Trade and economic development</h3>
+        <p><em>How could AI change the advantages of countries and their development paths?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.nber.org/papers/w28453">Artificial Intelligence, Globalization, and Strategies for Economic Development</a> - Korinek
+            and Stiglitz (2021). Examines labor-saving technology, global concentration, and policy choices for developing economies.
+            <code>Theory</code>
+          </li>
+          <li>
+            <a href="https://epoch.ai/gradient-updates/us-export-controls-china-ai">What Did US Export Controls Mean for China’s AI Capabilities?</a>
+            - Ege Erdil, Epoch AI (December 2024). Explains how chip restrictions can affect training and inference costs differently. A dated
+            analytical essay about the rules then in place, not a guide to current restrictions. <code>Overview</code>
+          </li>
+        </ul>
+        <h3 id="taxation-and-social-protection">Taxation and social protection</h3>
+        <p><em>How can governments distribute gains and support workers during the transition?</em></p>
+        <ul>
+          <li>
+            <a
+              href="https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/06/11/Broadening-the-Gains-from-Generative-AI-The-Role-of-Fiscal-Policies-549639"
+              >Broadening the Gains from Generative AI: The Role of Fiscal Policies</a
+            >
+            - Brollo and coauthors, IMF (2024). Discusses tax design, social protection, and public investment under different AI scenarios.
+            <code>Report</code>
+          </li>
+          <li>
+            <a href="https://institute.deepmind.com/essays/economic-policy-for-agi/">Economic Policy for AGI</a> - Julian Jacobs and Alex Imas, Google
+            DeepMind (September 2026). Compares 11 policies, including wage support, retraining, income guarantees, and capital ownership, across
+            possible AGI futures. Policy scores use simulated economist personas alongside literature reviews and surveys; they are not observed
+            policy effects. <code>Overview</code>
+          </li>
+        </ul>
+        <h3 id="sovereign-ai-and-industrial-policy">Sovereign AI and industrial policy</h3>
+        <p><em>What can public investment achieve, and which foreign dependencies remain?</em></p>
+        <ul>
+          <li>
+            <a href="https://interactives.cnas.org/reports/sovereign-ai-index/">Sovereign AI Index</a> - Center for a New American Security (2026).
+            Tracks government-backed compute, model, and data projects, including status, partners, and disclosed investment. Announcements and
+            commitments do not establish completed capacity. <code>Data</code> <code>Living</code>
+          </li>
+          <li>
+            <a href="https://www.brookings.edu/articles/is-ai-sovereignty-possible-balancing-autonomy-and-interdependence/"
+              >Is AI Sovereignty Possible? Balancing Autonomy and Interdependence</a
+            >
+            - Tanner and coauthors, Brookings and CEPS (2026). Examines the costs, dependencies, and trade-offs of national AI strategies, including
+            risks of duplicated or underused public investment. <code>Report</code>
+          </li>
+        </ul>
+        <h3 id="regulation-and-competition-policy">Regulation and competition policy</h3>
+        <p><em>Which market rules could support entry, innovation, and consumer welfare?</em></p>
+        <ul>
+          <li>
+            <a href="https://www.gov.uk/government/publications/ai-foundation-models-update-paper">AI Foundation Models: Update Paper</a> - UK
+            Competition and Markets Authority (2024). An institutional analysis of foundation-model markets, partnerships, and competition risks, with
+            a detailed technical report. <code>Report</code>
+          </li>
+        </ul>
+        <p>
+          Related material: <a href="#cloud-markets-and-capacity-pricing">cloud market investigation</a>,
+          <a href="#competition-and-market-power">AI competition and welfare</a>, and
+          <a href="#data-markets-and-intellectual-property">copyright and licensing</a>.
+        </p>
+        <h2 id="courses-and-learning-materials">Courses and learning materials</h2>
+        <ul>
+          <li>
+            <a href="https://digitaleconomy.stanford.edu/about/education/the-economics-of-transformative-ai/">The Economics of Transformative AI</a> -
+            Stanford Digital Economy Lab (2025 materials). Lectures, slides, readings, and exercises on growth, automation, distribution, and
+            governance. Best for readers comfortable with economic theory. <code>Course</code> <code>Videos</code> <code>Slides</code>
+            <code>Exercises</code>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/learn/economics-of-ai/">The Economics of AI</a> - Anton Korinek, University of Virginia. A structured
+            introduction to AI, growth, labor markets, and economic policy. Access to materials and assessments depends on Coursera enrollment terms.
+            <code>Course</code>
+          </li>
+        </ul>
+        <p>
+          For the practitioner seminar, see <a href="#start-here">Economics of the AI Supercycle</a>. Its public page describes the seminar and
+          speakers; it does not establish that a full lecture archive is available.
+        </p>
+        <h2 id="related-collections">Related collections</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/hanlulong/awesome-ai-for-economists">Awesome AI for Economists</a> - Tools and resources for using AI in
+            economic research. <code>Collection</code>
+          </li>
+          <li>
+            <a href="https://www.benkimuva.com/projects/ai-economics-atlas">Economics of AI Literature Atlas</a> - A searchable map of economic
+            research on AI, with links to source records. <code>Collection</code>
+          </li>
+          <li>
+            <a href="https://github.com/afrtrivi1120/economics-of-ai-explainers">Economics of AI Paper Explainers</a> - Accessible explanations of
+            academic papers, organized by economic topic. <code>Collection</code>
+          </li>
+          <li>
+            <a href="https://github.com/econ-ai-guide/resources">Econ → AI Resources</a> - Economic theory, game theory, and mechanism design applied
+            to AI development and alignment. <code>Collection</code>
+          </li>
+          <li>
+            <a href="https://ramp.com/data">Ramp Economics Lab</a> - Research archive on business spending, including AI adoption, supplier
+            competition, compute demand, and hiring. Based mainly on Ramp customer data; selected AI readings appear in the relevant sections above.
+            <code>Collection</code> <code>Living</code>
+          </li>
+        </ul>
+        <h2 id="contributing">Contributing</h2>
+        <p>
+          Suggest a resource, improve an annotation, or report a broken link. Read
+          <a href="https://github.com/gautamjajoo/awesome-economics-of-ai/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> for scope, entry format, and
+          review criteria.
+        </p>
+        <p>
+          Prefer an original paper, dataset, course page, official report, or clearly attributed industry analysis. Explain the economic question the
+          resource helps answer. Keep distinct findings and competing explanations visible.
+        </p>
+        <p>Currently maintained by <a href="https://github.com/gautamjajoo">Gautam Jajoo</a>.</p>
+      </article>
+    </main>
+  </body>
+</html>
