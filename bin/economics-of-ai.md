@@ -1,6 +1,6 @@
 # Economics of AI page
 
-The public page is served at https://jajoo.xyz/economics-of-ai/ by the existing GitHub Pages deployment.
+The page is intended for https://jajoo.xyz/economics-of-ai/. The custom domain is served by Netlify. This repository also builds to GitHub Pages and generates static output on the `gh-pages` branch. Deployment to GitHub Pages alone does not publish the page to the custom domain. The initial Netlify deployment is pending access to the existing hosting account.
 
 The content source is `README.md` on the `main` branch of `gautamjajoo/awesome-economics-of-ai`. Edit and push that README to update the reading list. No change to this website repository is needed for normal reading-list updates.
 
